@@ -30,7 +30,8 @@
 }
 .paginacao{
     margin: 0 auto 80px;
-    padding-left: 650px;
+    padding-left: 10px;
+
 }
 .paginacao span{
     width: 40px;
