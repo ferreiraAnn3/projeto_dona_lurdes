@@ -1,0 +1,49 @@
+/* Página de Produtos*/
+
+:root{
+    --color01: #FFE9A3; 
+    --color02: #A4C994;
+    --color03: #634A1A; 
+    --color04: #452409;
+    --color05: #1C150A; 
+    } 
+
+.novoMenu nav ul li a{
+    color: var(--color05);
+}
+.linha2 h2{
+    margin-left: 100px;
+}
+.linha2{
+    margin: 100px auto 50px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+.linha2 select{
+    padding: 5px;
+    background-color: var(--color02);
+    border: 1px solid var(--color05);
+}
+.linha2 select:focus{
+    outline: none;
+    background: none;
+}
+.paginacao{
+    margin: 0 auto 80px;
+    padding-left: 650px;
+}
+.paginacao span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--color05);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.paginacao span:hover{
+    background: var(--color02);
+}
